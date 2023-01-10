@@ -1,0 +1,835 @@
+:root{
+    /* default */
+    --cor-branco: #f3f4f6;
+    --cor-branco-off: #DDDDDD;
+    --cor-borda-cinza: #5d6276;
+    --cor-preto: #111111;
+
+    /* dark */
+    --primeira-cor-solid-dark: #171b31;
+    --segunda-cor-solid-dark: #222b45;
+    --terceira-cor-solid-dark: #3366ff;
+    --quarta-cor-solid-dark: #192038;
+    --quinta-cor-solid-dark: #151a30;
+    --sexta-cor-solid-dark: #343d57;
+    --setima-cor-solid-dark: #151a30cc;
+    --oitava-cor-solid-dark: #FF4D84;
+    --nona-cor-solid-dark: #ff1a61;
+    --decima-cor-solid-dark: #ffacc6;
+    --decimaprimeira-cor-solid-dark: #ff004f;
+    --decimasegunda-cor-solid-dark: #ff8358;
+    --decimaterceira-cor-solid-dark: #ffc2ae;
+    --decimaquarta-cor-solid-dark: #ff4100;
+
+    /* cosmic */
+    --primeira-cor-solid-cosmic: #1b1b37;
+    --segunda-cor-solid-cosmic: #323259;
+    --terceira-cor-solid-cosmic: #a16eff;
+    --quarta-cor-solid-cosmic: #47476e;
+    --quinta-cor-solid-cosmic: #252547cc;
+    --sexta-cor-solid-cosmic: #252547;
+    --setima-cor-solid-cosmic: #2c1079;
+    --oitava-cor-solid-cosmic: #312e81;
+    --nona-cor-solid-cosmic: #a17fff;
+
+
+    /* light */
+    --primeira-cor-solid-light: #183666;
+    --segunda-cor-solid-light: #2563eb;
+    --terceira-cor-solid-light: #60a5fa2e;
+    --quarta-cor-solid-light: #aaaaaa;
+    --quinta-cor-solid-light: #2f4975;
+}
+
+
+
+
+
+
+/* BackgrondColor */
+.topMenu{
+    box-shadow: var(--cor-preto) 8px 0px 9px -7px inset, 0px -3px 10px var(--cor-preto);
+}
+
+
+.solid-dark.colorWhite{
+    color: var(--cor-branco);
+}
+.solid-cosmic.colorWhite{
+    color: var(--cor-branco);
+}
+.solid-light.colorWhite{
+}
+
+.solid-dark.colorWhiteOff{
+    color: var(--cor-branco-off);
+}
+.solid-cosmic.colorWhiteOff{
+    color: var(--cor-branco-off);
+}
+.solid-light.colorWhiteOff{
+}
+
+.solid-dark.bgContentGeral{
+    background-color: var(--primeira-cor-solid-dark);
+}
+.solid-cosmic.bgContentGeral{
+    background-color: var(--primeira-cor-solid-cosmic);
+}
+.solid-light.bgContentGeral{
+}
+
+.solid-dark.boxShadowContentContainer{
+    box-shadow: var(--cor-preto) 8px 8px 9px -7px inset;
+}
+.solid-cosmic.boxShadowContentContainer{
+    box-shadow: var(--cor-preto) 8px 8px 9px -7px inset;
+}
+.solid-light.boxShadowContentContainer{
+}
+
+.solid-dark.boxShadowLeftMenu{
+    box-shadow: 1px 0px 10px var(--cor-preto);
+}
+.solid-cosmic.boxShadowLeftMenu{
+    box-shadow: 1px 0px 10px var(--cor-preto);
+}
+.solid-light.boxShadowLeftMenu{
+    box-shadow: 1px 0px 10px var(--cor-preto);
+}
+
+.solid-dark.bgLeftMenu{
+    background-color: var(--segunda-cor-solid-dark);
+}
+.solid-cosmic.bgLeftMenu{
+    background-color: var(--segunda-cor-solid-cosmic);
+}
+.solid-light.bgLeftMenu{
+    background-color: var(--primeira-cor-solid-light);
+}
+
+.solid-dark.boxShadowTopLeftMenu{
+    box-shadow: -5px 3px 10px var(--cor-preto);
+}
+.solid-cosmic.boxShadowTopLeftMenu{
+    box-shadow: -5px 3px 10px var(--cor-preto);
+}
+.solid-light.boxShadowTopLeftMenu{
+    box-shadow: -5px 3px 10px var(--cor-preto);
+}
+
+.bgDarkElementar{
+    background-color: var(--decimasegunda-cor-solid-dark);
+    border-color: var(--cor-branco);
+    transition: 0.3s;
+}
+
+.bgDarkElementarHover:hover{
+    background-color: var(--decimaterceira-cor-solid-dark);
+    color: var(--decimaquarta-cor-solid-dark);
+}
+
+.bgCosmicElementar{
+    background-color: var(--decimasegunda-cor-solid-dark);
+    border-color: var(--cor-branco);
+    transition: 0.3s;
+}
+
+.bgCosmicElementarHover:hover{
+    background-color: var(--decimaterceira-cor-solid-dark);
+    color: var(--decimaquarta-cor-solid-dark);
+}
+
+.bgLightElementar{
+    background-color: var(--decimasegunda-cor-solid-dark);
+    border-color: var(--cor-branco);
+    transition: 0.3s;
+}
+
+.bgLightElementarHover:hover{
+    background-color: var(--decimaterceira-cor-solid-dark);
+    color: var(--decimaquarta-cor-solid-dark);
+}
+
+
+
+.solid-dark.scroll{
+    --scrollbar-thumb: var(--primeira-cor-solid-dark) !important;
+    --scrollbar-track: var(--sexta-cor-solid-dark) !important;
+}
+
+.solid-cosmic.scroll{
+    --scrollbar-thumb: var(--primeira-cor-solid-cosmic) !important;
+    --scrollbar-track: var(--quarta-cor-solid-cosmic) !important;
+}
+
+.solid-light.scroll{
+    --scrollbar-thumb: var(--segunda-cor-solid-light) !important;
+    --scrollbar-track: var(--quarta-cor-solid-light) !important;
+}
+
+
+
+.nb-theme-cosmic nb-sidebar .scrollable::-webkit-scrollbar {
+    width: 0.3125rem !important;
+    height: 0.3125rem !important;
+}
+
+/* FimBackground */
+
+
+/* APPLAYOUT */
+    /* SOLID-DARK */
+        .solid-dark.bgTopMenu{
+            background-color: var(--segunda-cor-solid-dark);
+        }
+        .solid-dark.bgButtonHamburguer{
+            background-image: linear-gradient(to right, var(--terceira-cor-solid-dark),var(--terceira-cor-solid-dark));
+        }        
+        .solid-dark.bgDropdowMenu{
+            background-color: var(--segunda-cor-solid-dark);
+            border: 1px solid var(--cor-borda-cinza);
+            box-shadow: 0px 1px 5px var(--cor-preto);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.bgTopMenu{
+            background-color: var(--segunda-cor-solid-cosmic);
+        }
+        .solid-cosmic.bgButtonHamburguer{
+            background-image: linear-gradient(to right, var(--terceira-cor-solid-cosmic),var(--terceira-cor-solid-cosmic));
+        }        
+        .solid-cosmic.bgDropdowMenu{
+            background-color: var(--segunda-cor-solid-cosmic);
+            border: 1px solid var(--cor-borda-cinza);
+            box-shadow: 0px 1px 5px var(--cor-preto);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.bgTopMenu{
+        }
+        .solid-light.bgButtonHamburguer{
+            background-image: linear-gradient(to right, var(--segunda-cor-solid-light),var(--segunda-cor-solid-light));
+        }        
+        .solid-light.bgDropdowMenu{
+        }
+    /* FIM SOLID-LIGHT */
+/* FIM APPLAYOUT */
+
+
+/* Tabela */
+    /* SOLID-DARK */
+        .solid-dark.headerTable{
+            background-color: var(--segunda-cor-solid-dark);
+            border-bottom: 1px solid var(--cor-borda-cinza);
+            color: var(--cor-branco);
+        }
+        .solid-dark.numerosTabela {
+            border-color: var(--cor-borda-cinza);
+            box-shadow: 0px 1px 5px var(--cor-preto);
+            background-color: var(--cor-borda-cinza);
+            top: 2.6rem;
+        }
+        .solid-dark.numerosTabela ul{
+            background-color: var(--cor-borda-cinza);
+        }
+        .solid-dark.numerosTabela ul li{
+            background-color: var(--segunda-cor-solid-dark);
+        }
+        .solid-dark.numerosTabela ul li:hover{
+            background-color: var(--sexta-cor-solid-dark);
+        }
+
+        .solid-dark.nenhumDado{
+            background-color: var(--quarta-cor-solid-dark);
+            color: var(--cor-branco);
+        }
+
+        .solid-dark.contentTable{
+            color: var(--cor-branco);
+            border-color: var(--cor-borda-cinza);
+        }
+
+        .solid-dark.zebraImpar{
+            background-color: var(--quarta-cor-solid-dark);
+        }
+
+        .solid-dark.zebraPar{
+            background-color: var(--segunda-cor-solid-dark);
+        }
+
+        .solid-dark.semZebra{
+            background-color: var(--segunda-cor-solid-dark);    
+        }
+
+        .solid-dark.semZebra:hover,
+        .solid-dark.zebraImpar:hover,
+        .solid-dark.zebraPar:hover{
+            background-color: var(--quinta-cor-solid-dark);
+        }
+
+        .solid-dark.inputSearchBox{
+            background-color: var(--sexta-cor-solid-dark);
+            color:var(--cor-branco);
+            border-color: var(--cor-borda-cinza);
+        }
+
+        .solid-dark.inputSeacrhPagination{
+            background-color: var(--setima-cor-solid-dark);
+        }
+    /* FIM SOLID-DARK */
+
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.headerTable{
+            background-color: var(--segunda-cor-solid-cosmic);
+            border-bottom: 1px solid var(--cor-borda-cinza);
+            color: var(--cor-branco);
+        }
+
+        .solid-cosmic.numerosTabela {
+            border-color: var(--cor-borda-cinza);
+            box-shadow: 0px 1px 5px var(--cor-preto);
+            background-color: var(--cor-borda-cinza);
+            top: 2.6rem;
+        }
+        .solid-cosmic.numerosTabela ul{
+            background-color: var(--cor-borda-cinza);
+        }
+        .solid-cosmic.numerosTabela ul li{
+            background-color: var(--segunda-cor-solid-cosmic);
+        }
+
+        .solid-cosmic.numerosTabela ul li:hover{
+            background-color: var(--quarta-cor-solid-cosmic);
+        }
+
+        .solid-cosmic.nenhumDado{
+            background-color: var(--sexta-cor-solid-cosmic);
+            color: var(--cor-branco);
+        }
+
+        .solid-cosmic.contentTable{
+            color: var(--cor-branco);
+            border-color: var(--cor-borda-cinza);
+        }
+
+        .solid-cosmic.zebraImpar{
+            background-color: var(--sexta-cor-solid-cosmic);
+        }
+
+        .solid-cosmic.zebraPar{
+            background-color: var(--segunda-cor-solid-cosmic);
+        }
+
+        .solid-cosmic.semZebra{
+            background-color: var(--segunda-cor-solid-cosmic);    
+        }
+
+        .solid-cosmic.semZebra:hover,
+        .solid-cosmic.zebraImpar:hover,
+        .solid-cosmic.zebraPar:hover{
+            background-color: var(--primeira-cor-solid-cosmic);
+        }
+
+        .solid-cosmic.inputSearchBox{
+            background-color: var(--quarta-cor-solid-cosmic);
+            color:var(--cor-branco);
+            border-color: var(--cor-borda-cinza);
+        }
+
+        .solid-cosmic.inputSeacrhPagination{
+            background-color: var(--quinta-cor-solid-cosmic);
+        }
+    /* FIM SOLID-COSMIC */
+
+
+    /* SOLID-LIGHT */
+        .solid-light.headerTable{
+        }
+
+        .solid-light.numerosTabela {
+        }
+        .solid-light.numerosTabela ul{
+        }
+        .solid-light.numerosTabela ul li{
+        }
+
+        .solid-light.numerosTabela ul li:hover{
+        }
+
+        .solid-light.nenhumDado{
+        }
+
+        .solid-light.contentTable{
+        }
+
+        .solid-light.zebraImpar{
+        }
+
+        .solid-light.zebraPar{
+        }
+
+        .solid-light.semZebra{  
+        }
+
+        .solid-light.semZebra:hover,
+        .solid-light.zebraImpar:hover,
+        .solid-light.zebraPar:hover{
+        }
+
+        .solid-light.inputSearchBox{
+        }
+
+        .solid-light.inputSeacrhPagination{
+        }
+    /* FIM SOLID-LIGHT */
+/* FimTabela */
+
+/* Paginação */
+    /* SOLID-DARK */
+        .solid-dark.paginacao {
+            background-color: var(--segunda-cor-solid-dark);    
+            border-color: var(--terceira-cor-solid-dark);
+            color: var(--terceira-cor-solid-dark);
+        }
+
+        .solid-dark.paginacaoAtiva{
+            color: var(--cor-branco);
+            background: var(--terceira-cor-solid-dark);
+            border-color: var(--terceira-cor-solid-dark);
+        }
+
+        .solid-dark.paginacaoArrow {
+            color: var(--terceira-cor-solid-dark);
+        }
+    /* FIM SOLID-DARK */
+
+
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.paginacao {
+            background-color: var(--segunda-cor-solid-cosmic);    
+            border-color: var(--terceira-cor-solid-cosmic);
+            color: var(--terceira-cor-solid-cosmic);
+        }
+
+        .solid-cosmic.paginacaoAtiva{
+            color: var(--cor-branco);
+            background: var(--terceira-cor-solid-cosmic);
+            border-color: var(--terceira-cor-solid-cosmic);
+        }
+
+        .solid-cosmic.paginacaoArrow {
+            color: var(--terceira-cor-solid-cosmic);
+        }
+    /* FIM SOLID-COSMIC */
+
+
+
+    /* SOLID-LIGHT */
+        .solid-light.paginacao {
+        }
+
+        .solid-light.paginacaoAtiva{
+        }
+
+        .solid-light.paginacaoArrow {
+        }
+    /* FIM SOLID-LIGHT */
+/* FimPaginação */
+
+/* Dropdow */
+    /* SOLID-DARK */
+        .solid-dark.dropdownContent{
+            border-color: var(--cor-borda-cinza);
+            background-color: var(--cor-borda-cinza);
+            box-shadow: 0px 1px 5px var(--cor-preto);
+        }
+        .solid-dark.dropdownList{
+            background-color: var(--segunda-cor-solid-dark);
+            color:var(--cor-branco)
+        }
+
+        .solid-dark.dropdownList:hover{
+            background-color: var(--sexta-cor-solid-dark);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.dropdownContent{
+            border-color: var(--cor-borda-cinza);
+            background-color: var(--cor-borda-cinza);
+            box-shadow: 0px 1px 5px var(--cor-preto);
+        }
+        .solid-cosmic.dropdownList{
+            background-color: var(--segunda-cor-solid-cosmic);
+            color:var(--cor-branco)
+        }
+
+        .solid-cosmic.dropdownList:hover{
+            background-color: var(--quarta-cor-solid-cosmic);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.dropdownContent{
+        }
+        .solid-light.dropdownList{
+        }
+
+        .solid-light.dropdownList:hover{
+        }
+    /* FIM SOLID-LIGHT */
+/* FimDropdow */
+
+/* Collapsible */
+
+    /* SOLID-DARK */
+        .solid-dark.collapsibleItemContainer{
+            border-bottom: 1px solid var(--cor-borda-cinza);
+        }
+        .solid-dark.collapsibleItem{
+            background-color: var(--segunda-cor-solid-dark) !important;
+        }
+        .solid-dark.bgContentColapsInside{
+            background-color: var(--sexta-cor-solid-dark) !important;
+            color:var(--cor-branco);
+        }
+        .solid-dark.bgContentColapsOutside{
+            background-color: var(--quinta-cor-solid-dark) !important;
+            color:var(--cor-branco);
+        }
+        .solid-dark.boxShadowColapse{
+            box-shadow: 0px 0px 10px var(--cor-preto);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.collapsibleItemContainer{
+            border-bottom: 1px solid var(--cor-borda-cinza);
+        }
+        .solid-cosmic.collapsibleItem{
+            background-color: var(--segunda-cor-solid-cosmic) !important;
+        }
+        .solid-cosmic.bgContentColapsInside{
+            background-color: var(--quarta-cor-solid-cosmic) !important;
+            color:var(--cor-branco);
+        }
+        .solid-cosmic.bgContentColapsOutside{
+            background-color: var(--primeira-cor-solid-cosmic) !important;
+            color:var(--cor-branco);
+        }
+        .solid-cosmic.boxShadowColapse{
+            box-shadow: 0px 0px 10px var(--cor-preto);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        /* .solid-light.collapsibleItemContainer{
+        }
+        .solid-light.collapsibleItem{
+        } */
+        .solid-light.bgContentColapsInside{
+            background-color: var(--cor-branco) !important;
+        }
+        .solid-light.bgContentColapsOutside{
+            background-color: var(--terceira-cor-solid-light) !important;
+        }
+        .solid-light.boxShadowColapse{
+            box-shadow: 0px 0px 10px var(--quarta-cor-solid-light);
+        }
+    /* FIM SOLID-LIGHT */
+
+/* FimCollapsible */
+
+/* FORM */
+    /* SOLID-DARK */
+        .solid-dark.bgFormContent{
+            background-color: var(--segunda-cor-solid-dark);
+            box-shadow: 0px 0px 10px var(--cor-preto);
+        }
+        .solid-dark.colorTitleForm{
+            color: var(--cor-branco);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.bgFormContent{
+            background-color: var(--segunda-cor-solid-cosmic);            
+            box-shadow: 0px 0px 10px var(--cor-preto);
+        }
+        .solid-cosmic.colorTitleForm{
+            color: var(--cor-branco);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.bgFormContent{
+            box-shadow: 0px 0px 10px var(--quarta-cor-solid-light);                
+        }
+        .solid-light.colorTitleForm{
+        }
+    /* FIM SOLID-LIGHT */
+/* FIM FORM */
+
+
+
+
+/* INPUT */
+    /* SOLID-DARK */
+        .solid-dark.inputGroupColorWhite{
+            color: var(--cor-branco);
+        }
+        .solid-dark.colorInput{
+            background-color: var(--quarta-cor-solid-dark);
+            color:var(--cor-branco);
+            border-color: var(--cor-borda-cinza);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.inputGroupColorWhite{
+            color: var(--cor-branco);
+        }
+        .solid-cosmic.colorInput{
+            background-color: var(--sexta-cor-solid-cosmic);
+            color:var(--cor-branco);
+            border-color: var(--cor-borda-cinza);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.inputGroupColorWhite{
+                
+        }
+        .solid-light.colorInput{
+                
+        }
+    /* FIM SOLID-LIGHT */   
+/* FIM INPUT */
+
+
+/* FORM */
+    /* SOLID-DARK */
+        .solid-dark.bgTooltip{
+            background-color:var(--sexta-cor-solid-dark) !important;
+            color: var(--cor-branco);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.bgTooltip{
+            background-color:var(--quarta-cor-solid-cosmic) !important;
+            color: var(--cor-branco);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.bgTooltip{
+        }
+    /* FIM SOLID-LIGHT */
+/* FIM FORM */
+
+/* BUTTON BACK */
+    /* SOLID-DARK */
+        .solid-dark.buttonBack{
+            background-color: var(--oitava-cor-solid-dark);
+            border-color: var(--nona-cor-solid-dark);
+        }
+        .solid-dark.buttonBack:hover{
+            background-color: var(--decima-cor-solid-dark);
+            border-color: var(--nona-cor-solid-dark);
+            color: var(--decimaprimeira-cor-solid-dark);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.buttonBack{
+            background-color: var(--terceira-cor-solid-cosmic);
+            border-color: var(--setima-cor-solid-cosmic);
+        }
+        .solid-cosmic.buttonBack:hover{
+            background-color: var(--nona-cor-solid-cosmic);
+            border-color: var(--setima-cor-solid-cosmic);
+            color: var(--oitava-cor-solid-cosmic);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.buttonBack{
+        }
+        .solid-light.buttonBack:hover{
+        }
+    /* FIM SOLID-LIGHT */
+/* FIM BUTTON BACK */
+
+/* LIST */
+    /* SOLID-DARK */
+        .solid-dark.bgList{
+            background-color: var(--segunda-cor-solid-dark);
+            border-color: var(--cor-branco);
+            transition: 0.3s;
+            color: var(--cor-branco);
+        }
+        .solid-dark.bgList:hover{
+            background-color: var(--sexta-cor-solid-dark);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.bgList{
+            background-color: var(--segunda-cor-solid-cosmic);
+            border-color: var(--cor-branco);
+            transition: 0.3s;   
+            color: var(--cor-branco);             
+        }
+        .solid-cosmic.bgList:hover{
+            background-color: var(--quarta-cor-solid-cosmic);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.bgList{
+                
+        }
+    /* FIM SOLID-LIGHT */
+/* FIM LIST */
+
+
+/* INPUTFILE */
+    /* SOLID-DARK */
+        .solid-dark.buttonInputFile{
+            background-color: var(--decimasegunda-cor-solid-dark);
+            transition: 0.3s;
+        }
+        
+        .solid-dark.buttonInputFile:hover{
+            background-color: var(--decimaterceira-cor-solid-dark);
+            color: var(--decimaquarta-cor-solid-dark);
+        }
+    /* FIM SOLID-DARK */
+
+    /* SOLID-COSMIC */
+        .solid-cosmic.buttonInputFile{
+            background-color: var(--decimasegunda-cor-solid-dark);
+            transition: 0.3s;
+        }
+        
+        .solid-cosmic.buttonInputFile:hover{
+            background-color: var(--decimaterceira-cor-solid-dark);
+            color: var(--decimaquarta-cor-solid-dark);
+        }
+    /* FIM SOLID-COSMIC */
+
+    /* SOLID-LIGHT */
+        .solid-light.buttonInputFile{
+            background-color: var(--decimasegunda-cor-solid-dark);
+            transition: 0.3s;
+        }
+        
+        .solid-light.buttonInputFile:hover{
+            background-color: var(--decimaterceira-cor-solid-dark);
+            color: var(--decimaquarta-cor-solid-dark);
+        }
+    /* FIM SOLID-LIGHT */
+/* FIM INPUTFILE */
+
+
+
+/* DROPUP */
+    /* SOLID-DARK */
+    .solid-dark.dropUp{
+        background-color: transparent;
+        color: var(--cor-branco);
+        padding: 0.1rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    .solid-dark.dropupContent{
+        border-color: var(--cor-borda-cinza);
+        background-color: var(--segunda-cor-solid-dark);
+        color: var(--cor-branco);
+        box-shadow: 0px 1px 5px var(--cor-preto);
+        bottom: 2rem;
+        font-size: 0.8rem;
+    }   
+    .solid-dark.dropdownList{
+        background-color: var(--segunda-cor-solid-dark);
+        color:var(--cor-branco)
+    }
+    .solid-dark.dropdownList:hover{
+        background-color: var(--sexta-cor-solid-dark);
+    }
+/* FIM SOLID-DARK */
+
+/* SOLID-COSMIC */
+    .solid-cosmic.dropUp{
+        background-color: transparent;
+        color: var(--cor-branco);
+        padding: 0.1rem 0.5rem;            
+        font-size: 0.8rem;
+    }
+    .solid-cosmic.dropupContent{
+        border-color: var(--cor-borda-cinza);
+        background-color: var(--segunda-cor-solid-cosmic);
+        color: var(--cor-branco);
+        box-shadow: 0px 1px 5px var(--cor-preto);
+        bottom: 2rem;
+        font-size: 0.8rem;
+    } 
+    .solid-cosmic.dropdownList{
+        background-color: var(--segunda-cor-solid-cosmic);
+        color:var(--cor-branco)
+    }
+    .solid-cosmic.dropdownList:hover{
+        background-color: var(--sexta-cor-solid-dark);
+    }
+/* FIM SOLID-COSMIC */
+
+/* SOLID-LIGHT */
+    .solid-light.dropUp{
+        background-color: transparent;
+        color: var(--cor-branco);
+        padding: 0.1rem 0.5rem;            
+        font-size: 0.8rem;
+    }
+    .solid-light.dropupContent{
+        border-color: var(--cor-borda-cinza);
+        background-color: var(--primeira-cor-solid-light);
+        color: var(--cor-branco);
+        box-shadow: 0px 1px 5px var(--cor-preto);
+        bottom: 2rem;
+        font-size: 0.8rem;
+    } 
+    .solid-light.dropdownList{
+        background-color: var(--primeira-cor-solid-light);
+    }
+    .solid-light.dropdownList:hover{
+        background-color: var(--quinta-cor-solid-light);
+    }
+/* FIM SOLID-LIGHT */
+/* FIM DROPUP */
+
+
+
+/* FORM */
+    /* SOLID-DARK */
+    .solid-dark{
+
+    }
+/* FIM SOLID-DARK */
+
+/* SOLID-COSMIC */
+    .solid-cosmic{
+            
+    }
+/* FIM SOLID-COSMIC */
+
+/* SOLID-LIGHT */
+    .solid-light{
+            
+    }
+/* FIM SOLID-LIGHT */
+/* FIM FORM */
